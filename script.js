@@ -1,4 +1,4 @@
-// Loader (оставлен без изменений)
+// Loader (
 (function() {
     const loader = document.getElementById('loader');
     function forceHideLoader() {
@@ -23,7 +23,7 @@ if (hamburger && navUl) {
     });
 }
 
-// Плавная прокрутка для якорей (если есть внутренние ссылки)
+// Плавная прокрутка для якорей 
 document.querySelectorAll('a[href^="#"]:not([href="#"])').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         const targetId = this.getAttribute('href');
@@ -39,7 +39,7 @@ document.querySelectorAll('a[href^="#"]:not([href="#"])').forEach(anchor => {
     });
 });
 
-// Typing effect только на главной странице (если есть .typing)
+// Typing effect только на главной странице 
 const typingElement = document.querySelector('.typing');
 if (typingElement) {
     const text = "Привет, я";
@@ -54,7 +54,7 @@ if (typingElement) {
     setTimeout(typeWriter, 600);
 }
 
-// Анимация навыков (если есть секция .skills)
+// Анимация навыков 
 function animateSkills() {
     const skillCards = document.querySelectorAll('.skill-card');
     if (skillCards.length) {
@@ -67,12 +67,12 @@ function animateSkills() {
         });
     }
 }
-// Запускаем анимацию навыков при загрузке страницы (если они есть)
+// Запускаем анимацию навыков при загрузке страницы 
 document.addEventListener('DOMContentLoaded', () => {
     animateSkills();
 });
 
-// Параллакс частиц (только на главной)
+// Параллакс частиц 
 const particles = document.querySelector('.particles');
 if (particles) {
     window.addEventListener('scroll', () => {
@@ -81,7 +81,7 @@ if (particles) {
     });
 }
 
-// Форма обратной связи (общая для всех страниц с id="contactForm")
+// Форма обратной связи 
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
@@ -109,7 +109,7 @@ if (reviewForm) {
     });
 }
 
-// Кнопка Back to Top (исправленная)
+// Кнопка Back to Top 
 document.addEventListener('DOMContentLoaded', function() {
     const backToTop = document.getElementById('backToTop');
     if (backToTop) {
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Активный пункт меню подсвечиваем по текущей странице (можно доработать, но не обязательно)
+// Активный пункт меню подсвечиваем по текущей странице (
 const currentPath = window.location.pathname.split('/').pop();
 document.querySelectorAll('nav a').forEach(link => {
     const href = link.getAttribute('href');
