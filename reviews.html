@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы | Павлов Николай — Веб-разработчик</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader"><div class="spinner"></div></div>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+    <img src="Logo.png" alt="Логотип">
+           </a>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> Обо мне</a></li>
+                <li><a href="cases.html"><i class="fas fa-briefcase"></i> Кейсы</a></li>
+                <li><a href="reviews.html" class="active"><i class="fas fa-star"></i> Отзывы</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Контакты</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="reviews-page" class="page-section">
+            <div class="container">
+                <h1 class="section-title">Отзывы клиентов</h1>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar"><i class="fas fa-user-circle fa-3x"></i></div>
+                            <div>
+                                <h3>Анна Смирнова</h3>
+                                <div class="rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>«Ниоклай разработал для моего интернет-магазина современный и очень удобный сайт. Всё работает быстро, анимации плавные, заказчики довольны. Рекомендую!»</p>
+                        <span class="review-date">15 мая 2025</span>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar"><i class="fas fa-user-circle fa-3x"></i></div>
+                            <div>
+                                <h3>Максим Кузнецов</h3>
+                                <div class="rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>«Сделал лендинг для IT-конференции. Результат превзошёл ожидания: стильный дизайн, адаптив, быстрая загрузка. Профессиональный подход.»</p>
+                        <span class="review-date">2 августа 2025</span>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar"><i class="fas fa-user-circle fa-3x"></i></div>
+                            <div>
+                                <h3>Екатерина Орлова</h3>
+                                <div class="rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>«Очень приятно работать с Колей! Выполнил CRM-систему для управления задачами в срок, всегда на связи. Код чистый, документация отличная.»</p>
+                        <span class="review-date">10 ноября 2025</span>
+                    </div>
+                </div>
+                <div class="add-review">
+                    <h3>Оставить свой отзыв</h3>
+                    <form id="reviewForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Оценка</option>
+                                <option>5 ★★★★★</option>
+                                <option>4 ★★★★☆</option>
+                                <option>3 ★★★☆☆</option>
+                            </select>
+                        </div>
+                        <div class="form-group full">
+                            <textarea placeholder="Ваш отзыв" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить отзыв</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                     <a href="index.html" class="logo">
+    <img src="Logo.png" alt="Логотип">
+           </a>
+                    <p>Frontend-разработчик. Доступен для фриланса и сотрудничества.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Ссылки</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">Обо мне</a></li>
+                        <li><a href="cases.html">Кейсы</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Соцсети</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> nikalay@example.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Якутск, Россия</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Павлов Николай. Все права защищены.</p>
+                <button id="backToTop" class="btn-backtotop"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

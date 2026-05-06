@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Павлов Николай — Веб-разработчик</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader"><div class="spinner"></div></div>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+    <img src="Logo.png" alt="Логотип">
+           </a>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> Обо мне</a></li>
+                <li><a href="cases.html"><i class="fas fa-briefcase"></i> Кейсы</a></li>
+                <li><a href="reviews.html"><i class="fas fa-star"></i> Отзывы</a></li>
+                <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i> Контакты</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-page" class="page-section">
+            <div class="container">
+                <h1 class="section-title">Свяжитесь со мной</h1>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>nikolay@example.com</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fab fa-telegram"></i>
+                            <h3>Telegram</h3>
+                            <p>@nikolay_pavlov</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fab fa-github"></i>
+                            <h3>GitHub</h3>
+                            <p>github.com/nikolaypoavlov</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <h3>Телефон</h3>
+                            <p>+7 (999) 123-45-67</p>
+                        </div>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="form-group full">
+                            <textarea placeholder="Сообщение" rows="5" required></textarea>
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large"><i class="fas fa-paper-plane"></i> Отправить</button>
+                    </form>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89366.25358513934!2d129.70478566182738!3d62.033730018576874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d6f4c5b6b8b8b8b%3A0x8b8b8b8b8b8b8b8b!2z0K_RitC60YLRgdC6!5e0!3m2!1sru!2sru!4v1647862345678!5m2!1sru!2sru" width="100%" height="300" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                     <a href="index.html" class="logo">
+    <img src="Logo.png" alt="Логотип">
+           </a>
+                    <p>Frontend-разработчик. Доступен для фриланса и сотрудничества.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Ссылки</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">Обо мне</a></li>
+                        <li><a href="cases.html">Кейсы</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Соцсети</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> nikolay@example.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Якутск, Россия</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Павлов Николай. Все права защищены.</p>
+                <button id="backToTop" class="btn-backtotop"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

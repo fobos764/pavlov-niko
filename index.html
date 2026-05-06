@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Павлов Николай | Веб-разработчик — портфолио</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader"><div class="spinner"></div></div>
+
+    <header>
+        <nav>
+           <a href="index.html" class="logo">
+    <img src="Logo.png" alt="Логотип">
+           </a>
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> Обо мне</a></li>
+                <li><a href="cases.html"><i class="fas fa-briefcase"></i> Кейсы</a></li>
+                <li><a href="reviews.html"><i class="fas fa-star"></i> Отзывы</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Контакты</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="particles"></div>
+            <div class="hero-content">
+                <h1><span class="typing"></span> <span class="gradient-text">Павлов Николай</span></h1>
+                <p class="subtitle">Frontend-разработчик <i class="fas fa-heart"></i> Создаю красивые и быстрые сайты</p>
+                <div class="hero-buttons">
+                    <a href="cases.html" class="btn btn-primary"><i class="fas fa-rocket"></i> Мои работы</a>
+                    <a href="contact.html" class="btn btn-secondary"><i class="fas fa-download"></i> Связаться</a>
+                </div>
+            </div>
+            <div class="scroll-indicator"><i class="fas fa-chevron-down"></i></div>
+        </section>
+
+        <section id="about" class="page-section">
+            <div class="container">
+                <h2 class="section-title">Обо мне</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Junior frontend-разработчик из Якутска. Создаю современные, адаптивные и производительные веб-сайты. 
+                            Уделяю внимание чистоте кода, анимациям и пользовательскому опыту.</p>
+                        <a href="about.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    	<div class="about-image">
+    				<img src="facelogo.svg" alt="Павлов Николай" class="about-photo">
+			</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="page-section">
+            <div class="container">
+                <h2 class="section-title">Мои навыки</h2>
+                <p class="section-subtitle">Технологии, которые я использую в работе</p>
+                <div class="skills-grid">
+                    <div class="skill-card" data-skill="95">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h3>HTML5</h3>
+                        <p>Семантическая вёрстка, доступность (a11y)</p>
+                        <div class="skill-bar"><div class="skill-progress"></div></div>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="skill-card" data-skill="90">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h3>CSS3</h3>
+                        <p>Flexbox, Grid, анимации, адаптив</p>
+                        <div class="skill-bar"><div class="skill-progress"></div></div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-card" data-skill="80">
+                        <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                        <h3>JavaScript</h3>
+                        <p>ES6+, DOM, Fetch, Async/Await</p>
+                        <div class="skill-bar"><div class="skill-progress"></div></div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-card" data-skill="85">
+                        <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+                        <h3>Bootstrap 5</h3>
+                        <p>Быстрая адаптивная вёрстка</p>
+                        <div class="skill-bar"><div class="skill-progress"></div></div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-card" data-skill="75">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <h3>React</h3>
+                        <p>Компоненты, хуки, роутинг</p>
+                        <div class="skill-bar"><div class="skill-progress"></div></div>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-card" data-skill="80">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <h3>Git & GitHub</h3>
+                        <p>Контроль версий, работа в команде</p>
+                        <div class="skill-bar"><div class="skill-progress"></div></div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="page-section">
+            <div class="container">
+                <h2 class="section-title">Избранные проекты</h2>
+                <p class="section-subtitle">Реальные кейсы, которые я реализовал</p>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="stcok1.png" alt="Интернет-магазин">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="link"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Интернет-магазин одежды</h3>
+                            <p>Полноценный магазин с корзиной, фильтрацией и LocalStorage.</p>
+                            <div class="project-tech"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="stcok2.png" alt="CRM панель">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>CRM-панель управления</h3>
+                            <p>React-приложение для учёта задач и клиентов с графиками.</p>
+                            <div class="project-tech"><span>React</span><span>Chart.js</span><span>React Router</span></div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="stcok3.png" alt="Лендинг">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="link"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Лендинг IT-конференции</h3>
+                            <p>Адаптивный лендинг с регистрацией и анимациями.</p>
+                            <div class="project-tech"><span>HTML5</span><span>CSS Grid</span><span>ScrollReveal</span></div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="stcok4.png" alt="Портфолио фотографа">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="link"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Сайт-портфолио фотографа</h3>
+                            <p>Галерея с фильтрацией и модальными окнами.</p>
+                            <div class="project-tech"><span>JavaScript</span><span>CSS Grid</span><span>Lightbox</span></div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="stcok5.png" alt="Погодное приложение">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="link"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Погодное приложение</h3>
+                            <p>Работа с OpenWeatherMap API, динамическое отображение.</p>
+                            <div class="project-tech"><span>Fetch API</span><span>Async/Await</span><span>CSS Variables</span></div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="stcok6.png" alt="Todo лист">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="link"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Todo-лист с сохранением</h3>
+                            <p>Классический менеджер задач с localStorage.</p>
+                            <div class="project-tech"><span>JavaScript</span><span>Drag & Drop</span><span>LocalStorage</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-cta">
+                    <a href="cases.html" class="btn btn-primary">Смотреть все проекты <i class="fas fa-arrow-right"></i></a>
+                    <!-- ДОПОЛНИТЕЛЬНАЯ КНОПКА НА КОНТАКТЫ -->
+                    <a href="contact.html" class="btn btn-secondary" style="margin-left: 1rem;"><i class="fas fa-envelope"></i> Написать мне</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="page-section">
+            <div class="container">
+                <a href="contact.html" style="text-decoration: none; display: block;">
+                <h2 class="section-title">Свяжитесь со мной</h2>
+                </a>
+                <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                    <p style="margin-bottom: 2rem;">Готов обсудить ваш проект или ответить на вопросы. Напишите мне!</p>
+                    <a href="contact.html" class="btn btn-primary btn-large"><i class="fas fa-paper-plane"></i> Перейти в контакты</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                     <a href="index.html" class="logo">
+    <img src="Logo.png" alt="Логотип">
+           </a>
+                    <p>Frontend-разработчик. Доступен для фриланса и сотрудничества.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Ссылки</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">Обо мне</a></li>
+                        <li><a href="cases.html">Кейсы</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Соцсети</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> ivan@example.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Якутск, Россия</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Павлов Николай. Все права защищены. Сделано с <i class="fas fa-heart" style="color: #e53e3e;"></i></p>
+                <button id="backToTop" class="btn-backtotop"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

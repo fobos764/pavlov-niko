@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кейсы | Проекты Павлов Николай</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader"><div class="spinner"></div></div>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+    <img src="Logo.png" alt="Логотип">
+           </a>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> Обо мне</a></li>
+                <li><a href="cases.html" class="active"><i class="fas fa-briefcase"></i> Кейсы</a></li>
+                <li><a href="reviews.html"><i class="fas fa-star"></i> Отзывы</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Контакты</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cases-page" class="page-section">
+            <div class="container">
+                <h1 class="section-title">Мои проекты</h1>
+                <div class="cases-grid">
+                    <!-- Кейс 1 -->
+                    <div class="case-card">
+                        <div class="case-image">
+                            <img src="stcok1.png" alt="Проект интернет-магазин">
+                        </div>
+                        <div class="case-info">
+                            <h2>Интернет-магазин одежды «StyleShop»</h2>
+                            <p>Полнофункциональный интернет-магазин с корзиной, фильтрацией товаров и адаптивным дизайном. Реализована связь с API товаров, сохранение корзины в LocalStorage.</p>
+                            <div class="tech-stack">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript ES6</span><span>REST API</span>
+                            </div>
+                            <div class="case-links">
+                                <a href="#" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="btn btn-secondary"><i class="fas fa-external-link-alt"></i> Демо</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Кейс 2 -->
+                    <div class="case-card">
+                        <div class="case-image">
+                            <img src="stcok2.png" alt="CRM-система">
+                        </div>
+                        <div class="case-info">
+                            <h2>CRM-панель для управления задачами</h2>
+                            <p>Создал SPA-приложение для учёта задач и клиентов. Используются React, React Router, контекст для состояния. Реализованы фильтрация, поиск и графики активности.</p>
+                            <div class="tech-stack">
+                                <span>React</span><span>React Router</span><span>Axios</span><span>Chart.js</span>
+                            </div>
+                            <div class="case-links">
+                                <a href="#" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="btn btn-secondary"><i class="fas fa-external-link-alt"></i> Демо</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Кейс 3 -->
+                    <div class="case-card">
+                        <div class="case-image">
+                            <img src="stcok3.png" alt="Лендинг">
+                        </div>
+                        <div class="case-info">
+                            <h2>Лендинг для IT-конференции</h2>
+                            <p>Одностраничный сайт с анимациями, регистрацией участников и адаптивным гридом спикеров. Интеграция с Google Forms для сбора заявок.</p>
+                            <div class="tech-stack">
+                                <span>HTML5</span><span>CSS Grid/Flex</span><span>JS (ScrollReveal)</span><span>Google Forms API</span>
+                            </div>
+                            <div class="case-links">
+                                <a href="#" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="btn btn-secondary"><i class="fas fa-external-link-alt"></i> Демо</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                     <a href="index.html" class="logo">
+    <img src="Logo.png" alt="Логотип">
+           </a>
+                    <p>Frontend-разработчик. Доступен для фриланса и сотрудничества.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Ссылки</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">Обо мне</a></li>
+                        <li><a href="cases.html">Кейсы</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Соцсети</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> nikolay@example.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Якутск, Россия</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Павлов Николай. Все права защищены.</p>
+                <button id="backToTop" class="btn-backtotop"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

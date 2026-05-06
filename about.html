@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне | Павлов Николай — Веб-разработчик</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader"><div class="spinner"></div></div>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+    <img src="Logo.png" alt="Логотип">
+           </a>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="about.html" class="active"><i class="fas fa-user"></i> Обо мне</a></li>
+                <li><a href="cases.html"><i class="fas fa-briefcase"></i> Кейсы</a></li>
+                <li><a href="reviews.html"><i class="fas fa-star"></i> Отзывы</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Контакты</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-page" class="page-section">
+            <div class="container">
+                <h1 class="section-title">Обо мне</h1>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p><strong>Привет! Меня зовут Павлов Николай</strong> — я frontend-разработчик из Якутска.</p>
+                        <p>Занимаюсь созданием современных, быстрых и адаптивных веб-сайтов. Люблю чистый код, плавные анимации и продуманный UX. Постоянно изучаю новые технологии и применяю их на практике.</p>
+                        <h3>Образование</h3>
+                        <p>СВФУ им. М.К. Аммосова, Колледж инфраструктурных технологий, специальность «Информационные системы и программирование» (2023–2026).</p>
+                        <h3>Опыт работы</h3>
+                        <ul>
+                            <li><strong>2024 – н.в.</strong> Фриланс: разработка лендингов, корпоративных сайтов, интернет-магазинов.</li>
+                            <li><strong>2025</strong> Стажировка в IT-студии «WebMaster» — верстка и доработка React-приложений.</li>
+                        </ul>
+                        <h3>Ключевые качества</h3>
+                        <div class="qualities">
+                            <span>Ответственность</span>
+                            <span>Внимание к деталям</span>
+                            <span>Коммуникабельность</span>
+                            <span>Быстрая обучаемость</span>
+                        </div>
+                        <a href="resume.pdf" class="btn btn-primary" download><i class="fas fa-download"></i> Скачать резюме (PDF)</a>
+                    </div>
+                    <div class="about-image">
+                        <div class="about-image">
+    				<img src="facelogo.svg" alt="Павлов Николай" class="about-photo">
+			</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                     <a href="index.html" class="logo">
+    <img src="Logo.png" alt="Логотип">
+           </a>
+                    <p>Frontend-разработчик. Доступен для фриланса и сотрудничества.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Ссылки</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">Обо мне</a></li>
+                        <li><a href="cases.html">Кейсы</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Соцсети</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> NIKOLAY@example.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Якутск, Россия</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Павлов Николай. Все права защищены. Сделано с <i class="fas fa-heart" style="color: #e53e3e;"></i></p>
+                <button id="backToTop" class="btn-backtotop"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
